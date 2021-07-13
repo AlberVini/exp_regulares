@@ -4,7 +4,6 @@
 # re.M | re.MULTILINE -> auxilia na utilização do ^$ em uma expressão
 # re.S | re.DOTALL 
 
-from enum import Flag
 import re
 
 texto = '''
