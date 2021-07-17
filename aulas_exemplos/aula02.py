@@ -5,7 +5,7 @@
 # {} quantidade de caracteres
 # flags determinam regras para a consulta
 
-import re
+import re 
 
 texto = '''
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla soluta libero

@@ -6,7 +6,7 @@
 # {n} quantidade de caracteres
 # {min, max}
 
-import re
+import re 
 
 texto = '''
 João trouxe flores para sua amada namorada em 10 de janeiro de 1970,

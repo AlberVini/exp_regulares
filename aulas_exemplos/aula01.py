@@ -7,7 +7,7 @@ print(re.findall(r'expressão', frase))
 print(re.sub(r'expressão', 'exp', frase))
 
 fixo = re.compile(r'Exemplo') # guardando em uma variável a procura
-# manipulação da variável
+# manipulação da instância
 print(fixo.search(frase))
 print(fixo.findall(frase))
 print(fixo.sub('Exp', frase))

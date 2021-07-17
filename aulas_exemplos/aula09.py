@@ -3,7 +3,6 @@
 import re
 
 # cpf
-
 cpf = input('Digite um cpf com o formato [XXX.XXX.XXX-XX]: ')
 cpf_reg_exp = re.compile(r'^\d{3}\.\d{3}\.\d{3}-\d{2}$')
 
@@ -13,7 +12,6 @@ else:
     print('Digite um cpf válido')
 
 # ip
-
 # versão explicada
 ip_reg_exp = re.compile(r'''
     ^
@@ -36,7 +34,6 @@ ip_reg_exp = re.compile(r'''
         )
     $
 ''', flags=re.VERBOSE) # a flag re.VERBOSE ou re.X permite comentários por exemplo no código
-
 
 
 # ip de 0.0.0.0 ~ 299.299.299.299

@@ -1,6 +1,6 @@
 # lookahead e lookbehind são tipos de search para uma regexp
 
-import re
+import re 
 from pprint import pprint
 
 texto = '''

@@ -51,55 +51,57 @@ def create_pass(
     return ''.join(password)
 
 
-if __name__ == '__main__':
+def lista_senhas():
 
-    print('VÁLIDAS')
+    lista_pass = list()
+    
+    # VÁLIDAS
     for i in range(5):
-        print(create_pass(
+        lista_pass.append(create_pass(
             length=12,
             chars=True,
             upper=True,
             lower=True,
             numbers=True
         ))
-    print()
+    
 
-    print('SEM MINÚSCULAS')
+    # SEM MINÚSCULAS
     for i in range(5):
-        print(create_pass(
+        lista_pass.append(create_pass(
             length=12,
             chars=True,
             upper=True,
             lower=False,
             numbers=True
         ))
-    print()
 
-    print('SEM MINÚSCULAS E NÚMEROS')
+    # SEM MINÚSCULAS E NÚMEROS
     for i in range(5):
-        print(create_pass(
+        lista_pass.append(create_pass(
             length=12,
             chars=True,
             upper=True,
             lower=False,
             numbers=False
         ))
-    print()
+    
 
-    print('SEM NÚMEROS CARACTERES E MINÚSCULAS')
+    # SEM NÚMEROS CARACTERES E MINÚSCULAS
     for i in range(5):
-        print(create_pass(
+        lista_pass.append(create_pass(
             length=12,
             chars=False,
             upper=True,
             lower=False,
             numbers=False
         ))
-    print()
 
-    print('QUANTIDADE INVÁLIDA (6)')
+
+    # QUANTIDADE INVÁLIDA (6)
     for i in range(5):
-        print(create_pass(
+        lista_pass.append(create_pass(
             length=6,
         ))
-    print()
+    
+    return lista_pass

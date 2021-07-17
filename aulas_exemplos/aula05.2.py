@@ -8,6 +8,7 @@
 import re
 
 texto_html = '<p>1° Parágrafo</p> <p>2° Parágrafo</p> <div>Exemplo div</div>'
+
 # nomeação de conjunto (somente em python)
 # usasse (?P<exemplo>...) e para o acesso (?P=exemplo)
 # print(re.findall(r'<(?P<ptag>[pdiv]{1,3})>(.+?)<\/(?P=ptag)>', texto_html))

@@ -1,6 +1,6 @@
 # greedy e non-greedy or lazy
 
-import re
+import re 
 
 texto = '''
 <p>Something</p> <p>Qualquer coisa</p> <p>Frase 3 </p> <div>Frase 4 </div> 
