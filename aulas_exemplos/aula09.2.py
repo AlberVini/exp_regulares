@@ -1,5 +1,5 @@
 # código versão reduzida da aula09
-import re
+import re 
 
 ip_reg_exp = re.compile(r'^(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)\.?){4}\b$')
 

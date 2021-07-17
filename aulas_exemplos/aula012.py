@@ -51,7 +51,6 @@ def create_pass(
     return ''.join(password)
 
 
-
 def lista_senhas():
 
     lista_pass = list()

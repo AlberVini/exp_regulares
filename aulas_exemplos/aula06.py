@@ -3,7 +3,7 @@
 # $ a expressão deve terminar de x maneira
 # os meta caracteres acima servem para a busca exata da expressão passada
 
-import re
+import re 
 
 cpf = '293.457.246-99'
 cpf2 = 'a 293.457.246-99'

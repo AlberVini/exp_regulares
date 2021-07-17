@@ -4,7 +4,7 @@
 # re.M | re.MULTILINE -> auxilia na utilização do ^$ em uma expressão
 # re.S | re.DOTALL 
 
-import re
+import re 
 
 texto = '''
 123.435.764-77 ABC

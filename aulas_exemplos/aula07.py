@@ -31,6 +31,9 @@ print(re.findall(r'\d+', texto))
 print(re.findall(r'\S+', texto))
 
 print(re.findall(r'\bt\w+', texto, flags=re.I)) # begin
+
 print(re.findall(r'\w+da\b', texto, flags=re.I)) # tail
+
 print(re.findall(r'\b\w{7}\b', texto)) # linha 9
+
 print(re.findall(r'atual\w{2}\B', texto))

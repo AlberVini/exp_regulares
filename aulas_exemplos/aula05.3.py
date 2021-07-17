@@ -5,7 +5,7 @@
 # para identificar cada grupo se conta a primera abertura de parênteses (
 # para usar um conjunto mas não salva-lo na mémoria, se utiliza o "?:"" no começo do ()
 
-import re
+import re 
 
 cpf = '331.702.907-36'
 
